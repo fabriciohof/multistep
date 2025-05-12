@@ -31,3 +31,10 @@ Tudo isso com **estados controlados**, **feedback visual com ícones**, e **esti
 - ✅ Feedback final personalizado
 - ✅ Totalmente responsivo
 
+## 📷 Imagens
+
+![topo](https://github.com/fabriciohof/multistep/blob/main/src/img/image1.png)
+
+![topo](https://github.com/fabriciohof/multistep/blob/main/src/img/image2.png)
+
+![topo](https://github.com/fabriciohof/multistep/blob/main/src/img/image3.png)
