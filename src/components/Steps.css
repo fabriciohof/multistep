@@ -1,0 +1,42 @@
+.steps {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    /* margin: 0 auto; */
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.steps::after{
+    content:'';
+    width: 400px;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 20px;
+}
+
+.step {
+    text-align: center;
+    background-color: white;
+    z-index: 1;
+    width: 120px;
+    padding: 0.5rem;
+
+}
+
+/* Mexendo nos ícones */
+.step svg {  
+    font-size: 1.5rem;
+    margin-bottom: .2rem;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* fill muda a cor do ícone em svg */
+.active > svg {
+    fill: lightcoral;
+}
